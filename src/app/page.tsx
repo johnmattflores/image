@@ -19,24 +19,24 @@ export default function Home() {
       <div className="w-full flex gap-4 mt-10 mb-5">
         <div className="relative w-1/2">
           <h2 className="text-2xl font-bold text-center">Unoptimized</h2>
-          <p className="text-xl text-center">241kB</p>
+          <p className="text-xl text-center">18kB</p>
         </div>
 
         <div className="relative w-1/2">
           <h2 className="text-2xl font-bold text-center">Optimized</h2>
-          <p className="text-xl text-center">43.7kB (81.87% Reduction)</p>
+          <p className="text-xl text-center">10.9kB (39.44% Reduction)</p>
         </div>
       </div>
 
       <div className="w-full flex gap-4">
-        <div className="relative w-1/2">
-          <img className="object-cover w-full" src="./example.jpg" alt="Unoptimized Test Image 1" />
+        <div className="relative w-1/2 h-[600px] overflow-hidden">
+          <img className="object-cover w-full h-full" src="https://picsum.photos/id/237/300/400" alt="Unoptimized Test Image 1" />
         </div>
 
         <div className="relative w-1/2">
           <Image
             className="object-cover"
-            src="/example.jpg"
+            src="https://picsum.photos/id/237/300/400"
             alt="Optimized Test Image 1"
             fill
           />
