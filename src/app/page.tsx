@@ -24,13 +24,17 @@ export default function Home() {
 
         <div className="relative w-1/2">
           <h2 className="text-2xl font-bold text-center">Optimized</h2>
-          <p className="text-xl text-center">10.9kB (39.44% Reduction)</p>
+          <p className="text-xl text-center">15.9kB (11.67% Reduction)</p>
         </div>
       </div>
 
       <div className="w-full flex gap-4">
         <div className="relative w-1/2 h-[600px] overflow-hidden">
-          <img className="object-cover w-full h-full" src="https://picsum.photos/id/237/300/400" alt="Unoptimized Test Image 1" />
+          <img
+            className="object-cover w-full h-full"
+            src="https://picsum.photos/id/237/300/400"
+            alt="Unoptimized Test Image 1"
+          />
         </div>
 
         <div className="relative w-1/2">
@@ -51,13 +55,17 @@ export default function Home() {
 
         <div className="relative w-1/2">
           <h2 className="text-2xl font-bold text-center">Optimized</h2>
-          <p className="text-xl text-center">198kB (73.24% Reduction)</p>
+          <p className="text-xl text-center">233kB (68.51% Reduction)</p>
         </div>
       </div>
 
       <div className="w-full flex gap-4">
         <div className="relative w-1/2 h-[600px] overflow-hidden">
-          <img className="object-cover w-full h-full" src="https://picsum.photos/id/237/3000/4000" alt="Unoptimized Test Image 2" />
+          <img
+            className="object-cover w-full h-full"
+            src="https://picsum.photos/id/237/3000/4000"
+            alt="Unoptimized Test Image 2"
+          />
         </div>
 
         <div className="relative w-1/2">
